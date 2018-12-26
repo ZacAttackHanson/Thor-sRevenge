@@ -1,0 +1,66 @@
+body {background-color: #05bdf3;
+background-image: linear-gradient(225deg, #05bdf3 0%, #fd06df 76%);
+    color: white;
+    font-family: 'Emilys Candy', cursive;
+}
+
+#header{background-color: #000000;
+height: 150px;line-height: 150px;}
+
+#header a {color: white; text-decoration: none; text-transform: uppercase;letter-spacing: 0.1em; }
+#header a:hover {color:#ff71ce;}
+
+#header-title{display: block; padding-left: 20px;
+float: left; font-size: 20px; font-weight: bold;}
+
+#header-nav{display: block;float: right;margin-top: 0;margin-right: 50px}
+
+#header-nav li {display: inline; padding-left: 20px;}
+
+h1 {text-align: center;
+margin:auto;
+    padding-top: 100px;
+}
+h5{padding-top: 20px;
+    text-align: center;
+    margin: auto
+}
+p{text-align: center;
+    padding-top: 20px;
+}
+
+
+.btn {
+    /* using this to centre button */
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  /* default for <button>, but useful for <a> */
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+  
+  width: 40%;
+margin-left: 30%;
+margin-right: 30%;
+
+
+  /* invisible border (will be colored on hover/focus) */
+  
+
+  /* size comes from text & padding (no width/height) */
+border: 2px solid white; 
+
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: transparent;
+}
+
+
+hr {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}
